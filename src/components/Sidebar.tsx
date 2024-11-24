@@ -1,12 +1,11 @@
 import { useState } from 'react';
-import { Users, Shield, Settings, PieChart, CreditCard, LogOut, Menu, X } from 'lucide-react';
+import { Users, Shield, Settings, PieChart, LogOut, Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const navigation = [
   { name: 'Users', href: '/users', icon: Users },
   { name: 'Roles', href: '/roles', icon: Shield },
   { name: 'Reports', href: '/reports', icon: PieChart },
-  { name: 'Billing', href: '/billing', icon: CreditCard },
   { name: 'Settings', href: '/settings', icon: Settings },
 ];
 
