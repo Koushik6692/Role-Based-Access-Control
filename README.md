@@ -57,7 +57,7 @@ A modern, responsive Role-Based Access Control (RBAC) dashboard built with React
 2. Install dependencies:
 
    ```bash
-   cd vrv-security-rbac
+   cd Role-Based-Access-Control
    npm install
    ```
 
