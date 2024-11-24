@@ -40,10 +40,7 @@ export default function UserModal({ isOpen, onClose, user }: UserModalProps) {
         lastActive: new Date().toISOString(),
       });
     }
-    setFormData({ name:'',
-      email:  '',
-      roleId: roles[0].id,
-      status:  'active' as UserStatus})
+    setFormData({...formData,name:"",email:''})
     onClose();
   };
 

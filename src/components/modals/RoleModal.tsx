@@ -37,10 +37,7 @@ export default function RoleModal({ isOpen, onClose, role }: RoleModalProps) {
         permissions: selectedPermissions,
       });
     }
-    setFormData({
-      name: '',
-      description: '',
-      permissionIds:[]})
+    setFormData({ name:"",description:"", permissionIds:[]})
     onClose();
   };
 

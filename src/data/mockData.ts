@@ -86,7 +86,7 @@ export const users: User[] = [
     id: '3',
     name: 'Michael Chen',
     email: 'michael@vrvsecurity.com',
-    role: roles[3],
+    role: roles[2],
     status: 'inactive',
     avatar: 'image.png',
     lastActive: '2024-03-14T16:45:00Z'
