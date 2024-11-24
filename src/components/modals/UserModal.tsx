@@ -36,10 +36,14 @@ export default function UserModal({ isOpen, onClose, user }: UserModalProps) {
         email: formData.email,
         role: selectedRole,
         status: formData.status,
-        avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+        avatar: 'image.png',
         lastActive: new Date().toISOString(),
       });
     }
+    setFormData({ name:'',
+      email:  '',
+      roleId: roles[0].id,
+      status:  'active' as UserStatus})
     onClose();
   };
 

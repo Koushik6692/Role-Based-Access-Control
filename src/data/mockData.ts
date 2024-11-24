@@ -56,30 +56,39 @@ export const roles: Role[] = [
 
 export const users: User[] = [
   {
+    id: '0',
+    name: 'Koushik Sarabu',
+    email: 'koushik@vrvsecurity.com',
+    role: roles[0],
+    status: 'active',
+    avatar: 'image.png',
+    lastActive: '2024-03-15T10:30:00Z'
+  },
+  {
     id: '1',
     name: 'John Smith',
     email: 'john@vrvsecurity.com',
-    role: roles[0],
+    role: roles[1],
     status: 'active',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+    avatar: 'image.png',
     lastActive: '2024-03-15T10:30:00Z'
   },
   {
     id: '2',
     name: 'Sarah Johnson',
     email: 'sarah@vrvsecurity.com',
-    role: roles[1],
+    role: roles[2],
     status: 'active',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+    avatar: 'image.png',
     lastActive: '2024-03-15T09:15:00Z'
   },
   {
     id: '3',
     name: 'Michael Chen',
     email: 'michael@vrvsecurity.com',
-    role: roles[2],
+    role: roles[3],
     status: 'inactive',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+    avatar: 'image.png',
     lastActive: '2024-03-14T16:45:00Z'
   }
 ];
